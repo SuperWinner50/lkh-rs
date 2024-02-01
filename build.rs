@@ -15,5 +15,6 @@ fn main() {
         .include("LKH/SRC/INCLUDE")
         .define("TREE_TYPE", "TWO_LEVEL_TREE")
         .flag("-Wall")
+        .opt_level(3)
         .compile("lkh");
 }
